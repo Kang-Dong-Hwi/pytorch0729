@@ -13,7 +13,7 @@ def dB( magnitude ):
 
 def Mag_normalization( L, R ):
 
-    Mag = np.asarray( [ L, R ] )
+    Mag = np.asarray( [ L, R ] )  #(2, 257, 382)
     mu = np.mean( Mag )
     sigma = np.std( Mag )
     z = ( Mag - mu ) / sigma
@@ -57,27 +57,18 @@ for idx in range( y_data.shape[0] ):
     log_R = dB( mag_R )
 
 
-    # """정규화X"""
-    # x_element.append( mag_L )
-    # x_element.append( mag_R )
-    # x_element.append( phi_L )
-    # x_element.append( phi_R )
-
-
 
     """정규화"""
-    #x_left, x_right = Mag_normalization( log_L, log_R )   # log[dB] scale변환 후 정규화
-    x_left, x_right = Mag_normalization( mag_L , mag_R )  # log[dB] scale변환 하지 않고 정규화
+    x_left, x_right = Mag_normalization( log_L, log_R )   # log[dB] scale변환 후 정규화
     x_left_phase    = Phase_normalization( phi_L )
     x_right_phase   = Phase_normalization( phi_R )
+
 
 
     x_element.append( x_left )
     x_element.append( x_right )
     x_element.append( x_left_phase )
     x_element.append( x_right_phase )
-    
-
 
     x_data.append( np.asarray(x_element) )
 
@@ -89,9 +80,9 @@ y_data = angle_to_digit(y_data)
 <br><br><br>
 
 ### Screenshots
-epoch=100
-batch_size=20
-lr=0.00002
+epoch=100<br>
+batch_size=20<br>
+lr=0.00002<br>
 
 <table>
   <tr> 
