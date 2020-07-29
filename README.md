@@ -101,11 +101,11 @@ lr=0.00002
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2903.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2903.png", height=200px, width=250px>  </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2903.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2903.png", height=200px, width=250px>  </td>
   </tr>
   
   <tr> 
-      <td>
+      <td colspan="4">
        training accuracy: 93%<br>
        validation accuracy: 71%<br>
       </td>
@@ -121,11 +121,11 @@ lr=0.00002
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2904.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2904.png", height=200px, width=250px>  </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2904.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2904.png", height=200px, width=250px>  </td>
   </tr>
   
   <tr> 
-      <td>
+      <td colspan="4">
        training accuracy: 87.875%<br>
        validation accuracy: 53.3%<br>
       </td>
@@ -139,11 +139,11 @@ lr=0.00002
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2906.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2906.png", height=200px, width=250px>  </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2906.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2906.png", height=200px, width=250px>  </td>
   </tr>
 
   <tr> 
-      <td>
+      <td colspan="4">
        training accuracy: 98.5%<br>
        validation accuracy: 55.5%<br>
       </td>
@@ -156,11 +156,11 @@ lr=0.00002
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2905.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2905.png", height=200px, width=250px>  </td>
-    <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2905.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2905.png", height=200px, width=250px>  </td>
   </tr>
   
   <tr> 
-      <td>
+      <td colspan="4">
        training accuracy: 82%<br>
        validation accuracy: 11%<br>
       </td>
