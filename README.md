@@ -125,7 +125,7 @@ lr=0.00002<br>
   
   <!-- -->
   <tr> 
-      <td colspan="4"><br><br> log변환 X, 정규화 O </td>
+      <td colspan="4"><br><br> log변환 O, 정규화 X </td>
   </tr>
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2906.png", height=230px, width=250px>  </td>
@@ -141,7 +141,7 @@ lr=0.00002<br>
   </tr>
   
   <tr> 
-      <td colspan="4"><br><br> log변환 O, 정규화 X </td>
+      <td colspan="4"><br><br> log변환 O, 정규화 O </td>
   </tr>
 
   <tr>
