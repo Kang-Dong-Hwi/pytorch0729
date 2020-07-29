@@ -95,13 +95,13 @@ lr=0.00002
 
 <table>
   <tr> 
-      <td colspan="4"><br> log변환 X, 정규화 X </td>
+      <td colspan="4"> log변환 X, 정규화 X </td>
   </tr>
 
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2903.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2903.png", height=200px, width=250px>  </td>
-    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2903.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2903.png", height=200px, width=350px>  </td>
   </tr>
   
   <tr> 
@@ -115,13 +115,13 @@ lr=0.00002
  
  <!-- -->
   <tr> 
-      <td colspan="4"><br> log변환 X, 정규화 O </td>
+      <td colspan="4"><br><br> log변환 X, 정규화 O </td>
   </tr>
 
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2904.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2904.png", height=200px, width=250px>  </td>
-    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2904.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2904.png", height=200px, width=350px>  </td>
   </tr>
   
   <tr> 
@@ -134,12 +134,12 @@ lr=0.00002
   
   <!-- -->
   <tr> 
-      <td colspan="4"><br> log변환 X, 정규화 O </td>
+      <td colspan="4"><br><br> log변환 X, 정규화 O </td>
   </tr>
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2906.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2906.png", height=200px, width=250px>  </td>
-    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2906.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2906.png", height=200px, width=350px>  </td>
   </tr>
 
   <tr> 
@@ -150,13 +150,13 @@ lr=0.00002
   </tr>
   
   <tr> 
-      <td colspan="4"><br> log변환 O, 정규화 X </td>
+      <td colspan="4"><br><br> log변환 O, 정규화 X </td>
   </tr>
 
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2905.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2905.png", height=200px, width=250px>  </td>
-    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2905.png", height=200px, width=250px>  </td>
+    <td colspan="2"> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2905.png", height=200px, width=350px>  </td>
   </tr>
   
   <tr> 
