@@ -94,7 +94,8 @@ batch_size=20
 lr=0.00002
 
 <table>
-  <tr colspan="3"> <br> log변환 X, 정규화 X
+  <tr> 
+      <td colspan="4"><br> log변환 X, 정규화 X </td>
   </tr>
 
   <tr>
@@ -103,11 +104,18 @@ lr=0.00002
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2903.png", height=200px, width=250px>  </td>
   </tr>
   
-  <tr colspan="3"> training accuracy: 93%<br>
+  <tr> 
+      <td>
+       training accuracy: 93%<br>
        validation accuracy: 71%<br>
+      </td>
   </tr>
   
-  <tr colspan="3"> <br> log변환 X, 정규화 O
+ 
+ 
+ <!-- -->
+  <tr> 
+      <td colspan="4"><br> log변환 X, 정규화 O </td>
   </tr>
 
   <tr>
@@ -116,24 +124,33 @@ lr=0.00002
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2904.png", height=200px, width=250px>  </td>
   </tr>
   
-  <tr colspan="3"> training accuracy: 87.875%<br>
+  <tr> 
+      <td>
+       training accuracy: 87.875%<br>
        validation accuracy: 53.3%<br>
+      </td>
   </tr>
   
-  <tr colspan="3"> <br>log변환 O, 정규화 X
+  
+  <!-- -->
+  <tr> 
+      <td colspan="4"><br> log변환 X, 정규화 O </td>
   </tr>
-
   <tr>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/train_dataset_confusion_matrix2906.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/validation_dataset_confusion_matrix2906.png", height=200px, width=250px>  </td>
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2906.png", height=200px, width=250px>  </td>
   </tr>
-  
-  <tr colspan="3"> training accuracy: 98.5%<br>
+
+  <tr> 
+      <td>
+       training accuracy: 98.5%<br>
        validation accuracy: 55.5%<br>
+      </td>
   </tr>
   
-  <tr colspan="3"> <br> log변환 O, 정규화 O
+  <tr> 
+      <td colspan="4"><br> log변환 O, 정규화 X </td>
   </tr>
 
   <tr>
@@ -142,9 +159,11 @@ lr=0.00002
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2905.png", height=200px, width=250px>  </td>
   </tr>
   
-  <tr colspan="3"> training accuracy: 82%<br>
+  <tr> 
+      <td>
+       training accuracy: 82%<br>
        validation accuracy: 11%<br>
+      </td>
   </tr>
-
-
+  
 </table>
