@@ -3,7 +3,9 @@
 
 ### 로그변환, 정규화
 <br>
+
 ~~~python
+
 def dB( magnitude ):
     return 20*np.log10( np.abs(magnitude) + np.finfo(np.float32).eps )
     
@@ -25,7 +27,9 @@ def Phase_normalization( phase ):
     
     z = ( phase - mu ) / sigma
     return z
+    
 ~~~
+
 <br><br><br>
 
 
@@ -33,6 +37,7 @@ def Phase_normalization( phase ):
 ### dataset 구성
 
 <br>
+
 ~~~python
 
 x_data = []
@@ -78,8 +83,10 @@ for idx in range( y_data.shape[0] ):
 
 x_data = np.asarray(x_data)
 y_data = angle_to_digit(y_data)
+
 ~~~
 
+<br><br><br>
 
 ### Screenshots
 epoch=100
@@ -87,7 +94,7 @@ batch_size=20
 lr=0.00002
 
 <table>
-  <tr> <br>log변환 X, 정규화 X
+  <tr colspan="3"> <br> log변환 X, 정규화 X
   </tr>
 
   <tr>
@@ -96,11 +103,11 @@ lr=0.00002
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2903.png", height=200px, width=250px>  </td>
   </tr>
   
-  <tr> training accuracy: 93%<br>
+  <tr colspan="3"> training accuracy: 93%<br>
        validation accuracy: 71%<br>
   </tr>
   
-    <tr> <br>log변환 X, 정규화 O
+  <tr colspan="3"> <br> log변환 X, 정규화 O
   </tr>
 
   <tr>
@@ -109,11 +116,11 @@ lr=0.00002
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2904.png", height=200px, width=250px>  </td>
   </tr>
   
-  <tr> training accuracy: 87.875%<br>
+  <tr colspan="3"> training accuracy: 87.875%<br>
        validation accuracy: 53.3%<br>
   </tr>
   
-    <tr> <br>log변환 O, 정규화 X
+  <tr colspan="3"> <br>log변환 O, 정규화 X
   </tr>
 
   <tr>
@@ -122,11 +129,11 @@ lr=0.00002
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2906.png", height=200px, width=250px>  </td>
   </tr>
   
-  <tr> training accuracy: 98.5%<br>
+  <tr colspan="3"> training accuracy: 98.5%<br>
        validation accuracy: 55.5%<br>
   </tr>
   
-    <tr> <br>log변환 O, 정규화 O
+  <tr colspan="3"> <br> log변환 O, 정규화 O
   </tr>
 
   <tr>
@@ -135,7 +142,7 @@ lr=0.00002
     <td> <img src="https://github.com/Kang-Dong-Hwi/pytorch0729/blob/master/Screenshots/Adam2905.png", height=200px, width=250px>  </td>
   </tr>
   
-  <tr> training accuracy: 82%<br>
+  <tr colspan="3"> training accuracy: 82%<br>
        validation accuracy: 11%<br>
   </tr>
 
