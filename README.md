@@ -59,7 +59,7 @@ def Phase_normalization( phase ):
       </td>
   </tr>
   <tr>
-      <td>
+      <td valign="top" align="left">
           
 ~~~python
     x_data = []
@@ -101,7 +101,7 @@ def Phase_normalization( phase ):
 
 ~~~
    </td>
-   <td> 
+   <td align="top"> 
     
 ~~~python
       
@@ -174,50 +174,9 @@ x_data = np.asarray(x_data)
   </tr>
 </table>
     
-<br><br><br><br>
-    
-~~~python
-
-x_data = []
-
-for idx in range( y_data.shape[0] ):
-    
-    x_element = []
-    
-    mag_L = S_left[:,:,idx]
-    mag_R = S_right[:,:,idx]
-    phi_L = S_left_phase[:,:,idx]
-    phi_R = S_right_phase[:,:,idx]
-
-
-    """log[dB] scale"""
-    log_L = dB( mag_L )
-    log_R = dB( mag_R )
-
-
-
-    """정규화"""
-    x_left, x_right = Mag_normalization( log_L, log_R )   
-    # log[dB] scale변환 후 정규화
-    
-    x_left_phase    = Phase_normalization( phi_L )
-    x_right_phase   = Phase_normalization( phi_R )
-
-
-
-    x_element.append( x_left )
-    x_element.append( x_right )
-    x_element.append( x_left_phase )
-    x_element.append( x_right_phase )
-
-    x_data.append( np.asarray(x_element) )
-
-x_data = np.asarray(x_data)
-y_data = angle_to_digit(y_data)
-
-~~~
-
 <br><br><br>
+    
+
 
 ### Screenshots
 epoch=100<br>
