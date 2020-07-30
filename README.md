@@ -14,6 +14,7 @@ magnitude 정규화에서는 left(257,382), right(257, 382) array를<br>
 (2, 257, 382) arrary로 만든 뒤 정규화했고<br>
 <br>
 phase 정규화는 left, right 따로 해주었습니다.
+
 ~~~python
 
 def dB( magnitude ):
@@ -37,8 +38,8 @@ def Phase_normalization( phase ):
     
     z = ( phase - mu ) / sigma
     return z
-    
 ~~~
+
 
 <br><br><br>
 
