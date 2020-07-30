@@ -111,8 +111,7 @@ def Phase_normalization( phase ):
    </td>
    <td valign="top"> 
     
-~~~python
-      
+~~~python     
 x_data = []
 
 
