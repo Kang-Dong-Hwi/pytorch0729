@@ -49,7 +49,9 @@ def Phase_normalization( phase ):
 ----------
 
 <br>
-이 전에 코드에서 x_data 구성하는 부분을 다시 해보니
+이전코드에서 x_data 구성하는 부분을 다시 작성해서 실행해보니 validation 정확도가 70%정도로 나왔습니다.<br>
+<br>
+numpy array 파일(.npy)을 로드하고 dictionary에 넣어주고 다시 list로 복사해주면서 데이터가 이상하게 변환되었던것 같습니다.<br>
 
 <table>
   <tr>
@@ -186,6 +188,12 @@ x_data = np.asarray(x_data)
 
 
 ### Screenshots
+-------
+log scale변환, 정규화에 따른 결과입니다.
+
+
+
+-------
 epoch=100<br>
 batch_size=20<br>
 lr=0.00002<br>
