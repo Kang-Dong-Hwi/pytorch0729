@@ -46,6 +46,7 @@ def Phase_normalization( phase ):
 
 ### dataset 구성
 ----------
+
 <br>
 이 전에 코드에서 x_data 구성하는 부분을 다시 해보니
 
