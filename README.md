@@ -62,9 +62,16 @@ def Phase_normalization( phase ):
       <td valign="top" align="left">
           
 ~~~python
+
     x_data = []
 
+
+'''    x_data,       y_data '''
+'''(1000,4,257,382), (1000,)'''
+
+
     for idx in range( y_data.shape[0] ):
+
 
         x_element = []
 
