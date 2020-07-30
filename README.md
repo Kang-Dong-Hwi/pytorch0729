@@ -109,7 +109,7 @@ def Phase_normalization( phase ):
 
 ~~~
    </td>
-   <td align="top"> 
+   <td valign="top"> 
     
 ~~~python
       
